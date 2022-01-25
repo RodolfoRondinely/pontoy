@@ -1,0 +1,146 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+body{
+    background: rgb(205, 211, 209);
+}
+header{
+    text-transform: uppercase;
+    display: flex; 
+    height: 60px;
+    background-color: rgb(15, 175, 122);
+    color:rgb(125, 218, 113);
+    color: whitesmoke;
+    align-items: center;
+    padding-left: 20px;
+}
+header span img{
+    width: 30px;
+    border-radius: 100%;
+}
+
+aside{
+    width: 80px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+aside img{
+    width: 20px;
+}
+aside p,.asidemenu{
+    padding-top: 20px;
+    padding-left: 15px;
+    text-decoration: none;
+    text-align: left;
+    transition: 1s ease-out;
+}
+.asidemenu:hover{
+    background-color: rgb(33, 187, 136);
+    border-radius: 0 14px 4px 0;
+    border-right: 2px rgb(148, 38, 38) solid;
+}
+.perfil {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/perfil.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 83vw;
+    height: 30vh;
+    margin-top: -563px;
+    margin-right: 500px;
+    
+    text-align: center;
+    color: whitesmoke;
+    justify-content: baseline;
+    transition: 1s ease-out;
+
+
+
+}
+.modal {
+    display: flex;
+    width: 92vw;
+    margin-left: 80px;
+    background-color: chartreuse;
+    transition: 1s ease-out;
+
+}
+.perfil .modais{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.idperfil{
+    width: 80vw;
+    height: 60px;
+    background-color: rgba(22,22,222,.2);
+    position: relative;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.idperfil p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.asidemenu{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
+
+}
+.asidemenu img{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+
+
+
+/*  Estilização Entradda de dados do Ponto diario*/
+}
+.modais{
+    display: flex;
+    flex-direction: row;
+}
+.entradaDados{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+.entradaDados form fieldset{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.entradaDados form input{
+    margin: 5px;
+}
+
+.btn button{
+    color: rgb(235, 232, 238);
+    background-color: rgb(25, 74, 233);
+
+    border: 0;
+    border-radius: 6px;
+    text-transform: uppercase;
+    height: 25px;
+    width: 100px;
+    
+}
+.divsobre{
+    display: none;
+    width:80vw;
+    background-color: rgba(116, 109, 98,.3);
+    height: 60px;
+    margin-left: -1100px;
+    border-radius: 5px;
+    
+}
